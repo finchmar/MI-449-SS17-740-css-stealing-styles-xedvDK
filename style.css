@@ -1,0 +1,78 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 70px;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-top: 200px;
+  margin-left: -15px;
+  letter-spacing: -15px;
+}
+
+.F:hover {
+  color: red;
+}
+
+.A:hover {
+  color: blue;
+}
+
+.R:hover {
+  color: yellow;
+}
+
+.K:hover {
+  color: green;
+}
+
+.L:hover {
+  color: red;
+}
+
+.E:hover {
+  color: yellow;
+}
+
+.search-bar {
+  margin-top: 25px;
+  width: 400px;
+  height: 30px;
+  padding: 1px 10px;
+  background-color: white;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+  font-size: 14px;
+}
+
+.search-bar:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+.submit-button {
+  margin-top: 25px;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #6772e5;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.submit-button:hover {
+  background-color: #60b5f7;
+}
