@@ -1,4 +1,5 @@
 body {
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   margin: 0 auto;
   text-align: center;
 }
@@ -13,27 +14,27 @@ body {
 }
 
 .F:hover {
-  color: red;
+  color: #98c379;
 }
 
 .A:hover {
-  color: blue;
+  color: #56b6c2;
 }
 
 .R:hover {
-  color: yellow;
+  color: #c6ad00;
 }
 
 .K:hover {
-  color: green;
+  color: #b400b9;
 }
 
 .L:hover {
-  color: red;
+  color: #c62d48;
 }
 
 .E:hover {
-  color: yellow;
+  color: #98c379;
 }
 
 .search-bar {
@@ -68,11 +69,25 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-  color: #6772e5;
+  color: #7795f8;
   text-decoration: none;
   transition: all 0.15s ease;
+  border: 0;
 }
 
 .submit-button:hover {
-  background-color: #60b5f7;
+  color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.submit-button:focus {
+  outline: 0;
+}
+
+.submit-button:active {
+  color: #7795f8;
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
